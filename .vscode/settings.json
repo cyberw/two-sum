@@ -16,5 +16,10 @@
         ".",
         "-p",
         "*test.py"
-    ]
+    ],
+    "files.exclude": {
+        ".pytest_cache/**/*": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    }
 }
