@@ -13,7 +13,6 @@ class TestTwoSum(unittest.TestCase):
     def test_example3(self):
         self.assertEqual(two_sum([3, 3], 6), [0, 1])
 
-    # larger numbers in response to avoid completely broken implementation working by accident
     def test_example4(self):
         self.assertEqual(two_sum([1, 4, 12, 5], 9), [1, 3])
 if __name__ == "__main__":
